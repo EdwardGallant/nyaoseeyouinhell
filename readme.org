@@ -1,0 +1,19 @@
+* NyaoSeeYouInHell
+** License
+Released under Ed's official no guarantees, non-profit, dont-care license to leave me alone.
+** Abstract
+Autorun rubocop on writing a file and display it's warnings in the top right. Great for seeing what you have to type to disable them!
+** Installation
+#+NAME: NyaoFn
+#+BEGIN_SRC <language> <switches> <header arguments>
+mkdir -p ~/.vim/pack/eg/opt/nyaofn
+git clone https://github.com/EdwardGallant/nyaofn.git ~/.vim/pack/eg/opt/nyaofn
+git clone https://github.com/EdwardGallant/nyaoseeyouinhell.git ~/.vim/pack/eg/opt/nyaoseeyouinhell
+vim ~/.vimrc
+# vim's packadd command... run it manually or paste it in your vimrc, it's up to you!
+pa nyaofn
+pa nyaoseeyouinhell
+let g:NyaoSeeYouInHell.rubocop_repos = ['my-really-cool-repo-foldername']
+#+END_SRC
+
+Start vim from the project root of your ruby repo that uses RuboCop... If the folder name is in the array above, the plugin will be active.
