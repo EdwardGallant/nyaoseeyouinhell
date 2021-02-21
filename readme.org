@@ -3,6 +3,8 @@
 Released under Ed's official no guarantees, non-profit, dont-care license to leave me alone.
 ** Abstract
 Autorun rubocop on writing a file and display it's warnings in the top right. Great for seeing what you have to type to disable them!
+
+[[./img/example_of_failures.png]]
 ** Installation
 #+NAME: NyaoFn
 #+BEGIN_SRC <language> <switches> <header arguments>
